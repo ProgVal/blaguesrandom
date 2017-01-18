@@ -36,7 +36,9 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Comment appelle-t-on un squelette qui parle ?",
          "Vous connaissez l'histoire de Toto aux toilettes ?",
          "Vous connaissez la blague de la cravate ?",
-         "Tu veux une blague vaseuse ?"]
+         "Tu veux une blague vaseuse ?",
+         "Qu'est-ce qui est rectangulaire et dans un coin ?",
+         "C'est un café qui rentre dans un bar."]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -75,7 +77,9 @@ fin = ["Un chou marreur !",
        "Un os parleur !",
        "On peut pas, il a fermé la porte a clé.",
        "Elle est longue et plate.",
-       "Mets tes bottes !"]
+       "Mets tes bottes !",
+       "Un vilain frigo qui a été puni !",
+       "Et plouf !"]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
