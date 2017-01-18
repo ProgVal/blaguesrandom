@@ -44,7 +44,12 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Comment fait-on pour mettre un éléphant dans un frigo ?",
          "Pourquoi la poule a-t-elle traversé la route ?",
          "Vous connaissez la blague du papier ?",
-         "Vous voulez une blague à deux balles ?"]
+         "Vous voulez une blague à deux balles ?",
+         "Qu'est-ce qui est vert avec une cape ?",
+         "Pourquoi n'y a-t-il pas de ballons sur le plateau de Question pour un Champion ?",
+         "Qu'est-ce qu'un petit pois qui se bat contre une carotte ?",
+         "Qu'est-ce qui n'est pas un steak ?",
+         "Quel est le fruit que les poissons aiment le moins ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -87,11 +92,16 @@ fin = ["Un chou marreur !",
        "Un vilain frigo qui a été puni !",
        "Et plouf !",
        "De la peinture rouge.",
-       "Avec une foufourche",
+       "Avec une foufourche.",
        "On ouvre le frigo, on met l'éléphant, on ferme la porte.",
        "Pour aller de l'autre côté.",
        "Elle déchire !",
-       "Pan pan !"]
+       "Pan pan !",
+       "Un concombre imitant Super-Tomate.",
+       "Parce que Julien Lepers !",
+       "Un bon duel !",
+       "Une pastèque !",
+       "La pêche !"]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
