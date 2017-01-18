@@ -42,7 +42,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Qu'est-ce qui est rouge et a l'odeur de la peinture bleue ?",
          "Avec quoi ramasse-t-on la papaye ?",
          "Comment fait-on pour mettre un éléphant dans un frigo ?",
-         "Pourquoi la poule a-t-elle traversé la route ?"]
+         "Pourquoi la poule a-t-elle traversé la route ?",
+         "Vous connaissez la blague du papier ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -87,7 +88,8 @@ fin = ["Un chou marreur !",
        "De la peinture rouge.",
        "Avec une foufourche",
        "On ouvre le frigo, on met l'éléphant, on ferme la porte.",
-       "Pour aller de l'autre côté."]
+       "Pour aller de l'autre côté.",
+       "Elle déchire !"]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
