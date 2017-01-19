@@ -49,7 +49,12 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Pourquoi n'y a-t-il pas de ballons sur le plateau de Question pour un Champion ?",
          "Qu'est-ce qu'un petit pois qui se bat contre une carotte ?",
          "Qu'est-ce qui n'est pas un steak ?",
-         "Quel est le fruit que les poissons aiment le moins ?"]
+         "Quel est le fruit que les poissons aiment le moins ?",
+         "C'est l'histoire d'un tétard.",
+         "C'est l'histoire d'un arbre.",
+         "Pourquoi les phoques nagent-ils dans l'eau salée ?",
+         "Comment les toréadors prennent-ils leur café ?",
+         "Connaissez vous la tarte mystère ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -101,7 +106,12 @@ fin = ["Un chou marreur !",
        "Parce que Julien Lepers !",
        "Un bon duel !",
        "Une pastèque !",
-       "La pêche !"]
+       "La pêche !",
+       "Il pensait qu'il était tôt, mais en fait il était tard.",
+       "Il pensait qu'il était droit, mais en fait il était un peu plié.",
+       "Parce que l'eau poivrée les fait éternuer.",
+       "Ils prennent leur café olé !",
+       "C'est la tarte, taa-tiin !"]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
