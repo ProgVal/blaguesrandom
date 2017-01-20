@@ -59,7 +59,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Qu'est-ce qui est vert avec des roues ?",
          "Comment on fait avancer un cheval communiste ?",
          "Que fait un policier qui tombe dans l'eau ?",
-         "Quelle est la différence entre un pigeon ?"]
+         "Quelle est la différence entre un pigeon ?",
+         "Comment appelle-t-on un chien qui a des lunettes ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -121,7 +122,8 @@ fin = ["Un chou marreur !",
        "En criant « Robert Hue ! ».",
        "L'herbe. J'ai menti pour les roues.",
        "« Flic »",
-       "Il a une patte plus longue que l'autre, surtout la gauche."]
+       "Il a une patte plus longue que l'autre, surtout la gauche.",
+       "Un optichien !"]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
