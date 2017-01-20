@@ -54,7 +54,10 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "C'est l'histoire d'un arbre.",
          "Pourquoi les phoques nagent-ils dans l'eau salée ?",
          "Comment les toréadors prennent-ils leur café ?",
-         "Connaissez vous la tarte mystère ?"]
+         "Connaissez vous la tarte mystère ?",
+         "Combien de psychanalistes faut-il pour changer une ampoule ?",
+         "Qu'est-ce qui est vert avec des roues ?",
+         "Comment on fait avancer un cheval communiste ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -111,7 +114,9 @@ fin = ["Un chou marreur !",
        "Il pensait qu'il était droit, mais en fait il était un peu plié.",
        "Parce que l'eau poivrée les fait éternuer.",
        "Ils prennent leur café olé !",
-       "C'est la tarte, taa-tiin !"]
+       "C'est la tarte, taa-tiin !",
+       "Un seul, mais il faut que l'ampoule elle-même aie envie de changer.",
+       "En criant « Robert Hue ! »."]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
@@ -125,3 +130,4 @@ def blague(k):
 
 if __name__ == '__main__':
     print(blague(10))
+
