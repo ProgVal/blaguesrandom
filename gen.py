@@ -116,7 +116,8 @@ fin = ["Un chou marreur !",
        "Ils prennent leur café olé !",
        "C'est la tarte, taa-tiin !",
        "Un seul, mais il faut que l'ampoule elle-même aie envie de changer.",
-       "En criant « Robert Hue ! »."]
+       "En criant « Robert Hue ! ».",
+       "L'herbe. J'ai menti pour les roues."]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
