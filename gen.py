@@ -64,7 +64,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Comment se débarrasse-t-on d'un ver solitaire ?",
          "Quelle est la différence entre un babouin et un voleur ?",
          "Comment s'appellerait Han Solo s'il était allemand ?",
-         "Savez-vous pourquoi les girafes n'existent pas ?"]
+         "Savez-vous pourquoi les girafes n'existent pas ?",
+         "Qu'est-ce qui est petit et marron ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -131,7 +132,8 @@ fin = ["Un chou marreur !",
        "On en rajoute un deuxième.",
        "Ils ont tous les deux la peau lisse au cul !",
        "Harrisson Volkswagen.",
-       "C'est un cou monté !"]
+       "C'est un cou monté !",
+       "Un marron !"]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
