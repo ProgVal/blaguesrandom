@@ -115,7 +115,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Pourquoi Harry Potter aime bien la charcuterie ?",
          "Monsieur et madame Inosaure ont un fils. Quel est son nom ?",
          "Quel musicien aime beaucoup donner son avis sur les instruments qu'il a testé ?",
-         "Pourquoi le céleri n'est pas une céréale ?"]
+         "Pourquoi le céleri n'est pas une céréale ?",
+         "Qu'est-ce qui est vert, qui monte et qui descend ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -233,7 +234,8 @@ fin = ["Un chou marreur !",
        "Parce qu'il étudie à BoutDeLard.",
        "Archibald. Parce qu'Archie bat l'dinosaure !",
        "Jean-Sébastien FeedBach.",
-       "Parce que la céréale, c'est le riz."]
+       "Parce que la céréale, c'est le riz.",
+       "Feur !"]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
