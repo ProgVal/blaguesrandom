@@ -189,9 +189,9 @@ fin = ["Un chou marreur !",
        "La Croatie.",
        "Les croassants.",
        "Il a un porte-clés de bras.",
-       "Mentine. Parce qu''elle a les clés, Mentine.",
-       "Ptomane. Parce qu''il a les clés, Ptomane.",
-       "Menceau. Parce qu''il a les clés, Menceau.",
+       "Mentine. Parce qu'elle a les clés, Mentine.",
+       "Ptomane. Parce qu'il a les clés, Ptomane.",
+       "Menceau. Parce qu'il a les clés, Menceau.",
        "Ce serait le vieux pas né.",
        "Un rapport-heure.",
        "Du rétro-pédalage.",
@@ -247,4 +247,3 @@ def blague(k):
 
 if __name__ == '__main__':
     print(blague(10))
-
