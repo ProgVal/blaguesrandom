@@ -120,7 +120,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Madame et Madame Menfin on un fils. Comment s'appelle-t-il ?",
          "Qu'est-ce qu'une olive dénoyautée ?",
          "Que dit une feuille qui tombe dans un lac ?",
-         "Qu'est-ce qu'un kinder surprise sans surprise ?"]
+         "Qu'est-ce qu'un kinder surprise sans surprise ?",
+         "De quelle couleur sont les petits pois ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -243,7 +244,8 @@ fin = ["Un chou marreur !",
        "Gérard.",
        "Une olive injective !",
        "« J'ai papier ! »",
-       "Un kinder injectif, parce que son noyau est réduit à zéro."]
+       "Un kinder injectif, parce que son noyau est réduit à zéro.",
+       "Les petits pois sont rouges !"]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
@@ -257,3 +259,4 @@ def blague(k):
 
 if __name__ == '__main__':
     print(blague(10))
+    print(len(debut)*len(fin))
