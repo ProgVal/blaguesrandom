@@ -123,7 +123,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Qu'est-ce qu'un kinder surprise sans surprise ?",
          "De quelle couleur sont les petits pois ?"
          "Quelle est la différence entre un diamètre et un rayon ?",
-         "Comment sert-on le thé à un martien ?"]
+         "Comment sert-on le thé à un martien ?",
+         "Quel est le pluriel de « une bière » ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -249,7 +250,8 @@ fin = ["Un chou marreur !",
        "Un kinder injectif, parce que son noyau est réduit à zéro.",
        "Les petits pois sont rouges !"
        "Un rayon.",
-       "Sans oublier la soucoupe."]
+       "Sans oublier la soucoupe."
+       "Des haltères. Car une bière désaltère !"]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
