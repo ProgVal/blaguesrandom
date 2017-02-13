@@ -125,7 +125,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Quelle est la différence entre un diamètre et un rayon ?",
          "Comment sert-on le thé à un martien ?",
          "Quel est le pluriel de « une bière » ?",
-         "Pourquoi la roche volcanique est-elle très propre ?"]
+         "Pourquoi la roche volcanique est-elle très propre ?",
+         "C'est deux chèvres, Babi et Baba, qui sont dans un bateau. Elles tombent à l'eau, que ce passe-t-il ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -253,7 +254,8 @@ fin = ["Un chou marreur !",
        "Un rayon.",
        "Sans oublier la soucoupe."
        "Des haltères. Car une bière désaltère !",
-       "Parce qu'elle se lave !"]
+       "Parce qu'elle se lave !",
+       "Babi bêle et Baba coule !"]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
