@@ -257,7 +257,7 @@ fin = ["Un chou marreur !",
        "Un kinder injectif, parce que son noyau est réduit à zéro.",
        "Les petits pois sont rouges !"
        "Un rayon.",
-       "Sans oublier la soucoupe."
+       "Sans oublier la soucoupe.",
        "Des haltères. Car une bière désaltère !",
        "Parce qu'elle se lave !",
        "Babi bêle et Baba coule !",
