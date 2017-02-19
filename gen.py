@@ -255,7 +255,7 @@ fin = ["Un chou marreur !",
        "Une olive injective !",
        "« J'ai papier ! »",
        "Un kinder injectif, parce que son noyau est réduit à zéro.",
-       "Les petits pois sont rouges !"
+       "Les petits pois sont rouges !",
        "Un rayon.",
        "Sans oublier la soucoupe.",
        "Des haltères. Car une bière désaltère !",
