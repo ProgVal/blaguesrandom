@@ -121,7 +121,7 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Qu'est-ce qu'une olive dénoyautée ?",
          "Que dit une feuille qui tombe dans un lac ?",
          "Qu'est-ce qu'un kinder surprise sans surprise ?",
-         "De quelle couleur sont les petits pois ?"
+         "De quelle couleur sont les petits pois ?",
          "Quelle est la différence entre un diamètre et un rayon ?",
          "Comment sert-on le thé à un martien ?",
          "Quel est le pluriel de « une bière » ?",
