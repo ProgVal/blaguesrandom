@@ -132,7 +132,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Pourquoi le clown a-t-il des bretelles bleu-blanc-rouge ?",
          "Qu'est-ce qu'un match de foot à deux ?",
          "Comment appelle-t-on un lapin qui fait du stand-up ?",
-         "Il y a 5 poussins sur une table (sur un sol capitonné). Tu veux n'en avoir plus que 4, comment fais-tu ?"]
+         "Il y a 5 poussins sur une table (sur un sol capitonné). Tu veux n'en avoir plus que 4, comment fais-tu ?",
+         "Que font les sardines le samedi soir ?"]
 
 
 fin = ["Un chou marreur !",
@@ -268,7 +269,8 @@ fin = ["Un chou marreur !",
        "Pour que son pantalon ne tombe pas !",
        "La guerre des goals !",
        "Un blagomorphe !",
-       "Bah t'en pousses un !"]
+       "Bah t'en pousses un !",
+       "Elles vont en boîte !"]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
