@@ -126,7 +126,7 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Comment sert-on le thé à un martien ?",
          "Quel est le pluriel de « une bière » ?",
          "Pourquoi la roche volcanique est-elle très propre ?",
-         "C'est deux chèvres, Babi et Baba, qui sont dans un bateau. Elles tombent à l'eau, que ce passe-t-il ?",
+         "C'est deux chèvres, Babi et Baba, qui sont dans un bateau. Elles tombent à l'eau, que se passe-t-il ?",
          "Comment appelle-t-on une pyramide avec un masque ?",
          "Pourquoi Perrache ne tient pas debout ?",
          "Pourquoi le clown a-t-il des bretelles bleu-blanc-rouge ?",
@@ -135,7 +135,10 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Il y a 5 poussins sur une table (sur un sol capitonné). Tu veux n'en avoir plus que 4, comment fais-tu ?",
          "Que font les sardines le samedi soir ?",
          "Quelles sont les deux sortes d'OVNI ?",
-         "Que dit une vache qui prend ses copines en photo ?"]
+         "Que dit une vache qui prend ses copines en photo ?",
+         "Qu'est-ce qu'un steak derrière un arbre ?",
+         "J'ai trois têtes, dix bras, quatre jambes et trois pieds. Qui suis-je?",
+         "Quelle est la différence entre une autruche et une orange ?"]
 
 
 fin = ["Un chou marreur !",
@@ -274,7 +277,10 @@ fin = ["Un chou marreur !",
        "Bah t'en pousses un !",
        "Elles vont en boîte !",
        "L'OVNI tender et l'OVNI true.",
-       "Attention, ne bousez plus !"]
+       "Attention, ne bousez plus !",
+       "Un steak caché !",
+       "Un menteur.",
+       "L'une dort debout tandis que l'autre est un agrume."]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
