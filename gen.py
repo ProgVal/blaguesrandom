@@ -141,9 +141,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Quelle est la différence entre une autruche et une orange ?",
          "Quel animal peut lire l'avenir ?",
          "Comment faire cuire 9 patates à 3000m d'altitude, sans moyen de faire du feu ?",
-         "Pourquoi les chats n'aiment-ils pas l'eau ?"]
-
-
+         "Pourquoi les chats n'aiment-ils pas l'eau ?",
+         "Monsieur et Madame Frigolbeur ont un fils, comment s'appelle-t-il ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -287,7 +286,8 @@ fin = ["Un chou marreur !",
        "L'une dort debout tandis que l'autre est un agrume.",
        "Une poule de cristal !",
        "On en enlève une, et hop ! Elle sont qu'huit !",
-       "Parce que l'eau minérale !"]
+       "Parce que l'eau minérale !",
+       "Roméo !"]
 
 
 def blague(k):
