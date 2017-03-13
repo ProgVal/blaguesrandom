@@ -138,7 +138,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Que dit une vache qui prend ses copines en photo ?",
          "Qu'est-ce qu'un steak derrière un arbre ?",
          "J'ai trois têtes, dix bras, quatre jambes et trois pieds. Qui suis-je?",
-         "Quelle est la différence entre une autruche et une orange ?"]
+         "Quelle est la différence entre une autruche et une orange ?",
+         "Quel animal peut lire l'avenir ?"]
 
 
 fin = ["Un chou marreur !",
@@ -280,7 +281,8 @@ fin = ["Un chou marreur !",
        "Attention, ne bousez plus !",
        "Un steak caché !",
        "Un menteur.",
-       "L'une dort debout tandis que l'autre est un agrume."]
+       "L'une dort debout tandis que l'autre est un agrume.",
+       "Une poule de cristal !"]
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
