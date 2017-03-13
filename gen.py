@@ -140,7 +140,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "J'ai trois têtes, dix bras, quatre jambes et trois pieds. Qui suis-je?",
          "Quelle est la différence entre une autruche et une orange ?",
          "Quel animal peut lire l'avenir ?",
-         "Comment faire cuire 9 patates à 3000m d'altitude, sans moyen de faire du feu ?"]
+         "Comment faire cuire 9 patates à 3000m d'altitude, sans moyen de faire du feu ?",
+         "Pourquoi les chats n'aiment-ils pas l'eau ?"]
 
 
 
@@ -285,7 +286,8 @@ fin = ["Un chou marreur !",
        "Un menteur.",
        "L'une dort debout tandis que l'autre est un agrume.",
        "Une poule de cristal !",
-       "On en enlève une, et hop ! Elle sont qu'huit !"]
+       "On en enlève une, et hop ! Elle sont qu'huit !",
+       "Parce que l'eau minérale !"]
 
 
 def blague(k):
