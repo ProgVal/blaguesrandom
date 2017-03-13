@@ -143,7 +143,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Comment faire cuire 9 patates à 3000m d'altitude, sans moyen de faire du feu ?",
          "Pourquoi les chats n'aiment-ils pas l'eau ?",
          "Monsieur et Madame Frigolbeur ont un fils, comment s'appelle-t-il ?",
-         "Qu'est-ce qui est jaune et qui attend ?"]
+         "Qu'est-ce qui est jaune et qui attend ?",
+         "Comment fait-on pour faire aboyer un chat ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -289,7 +290,8 @@ fin = ["Un chou marreur !",
        "On en enlève une, et hop ! Elle sont qu'huit !",
        "Parce que l'eau minérale !",
        "Roméo !",
-       "Jonathan !"]
+       "Jonathan !",
+       "On lui donne de l'eau, et puis il la boit."]
 
 
 def blague(k):
