@@ -142,6 +142,7 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Quel animal peut lire l'avenir ?"]
 
 
+
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
        "Parce que Jacques sonne !",
@@ -283,6 +284,7 @@ fin = ["Un chou marreur !",
        "Un menteur.",
        "L'une dort debout tandis que l'autre est un agrume.",
        "Une poule de cristal !"]
+
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
