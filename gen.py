@@ -145,7 +145,9 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Monsieur et Madame Frigolbeur ont un fils, comment s'appelle-t-il ?",
          "Qu'est-ce qui est jaune et qui attend ?",
          "Comment fait-on pour faire aboyer un chat ?",
-         "Pourquoi Napoléon ne voulait-il pas toucher les arbres ?"]
+         "Pourquoi Napoléon ne voulait-il pas toucher les arbres ?",
+         "Que dit le Christ satisfait ?",
+         "Que dit un homme d'Église heureux ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -293,7 +295,9 @@ fin = ["Un chou marreur !",
        "Roméo !",
        "Jonathan !",
        "On lui donne de l'eau, et puis il la boit.",
-       "Parce qu'il avait peur des insectes qui mangent l'écorce !"]
+       "Parce qu'il avait peur des insectes qui mangent l'écorce !",
+       "« Jésus content. »",
+       "« Jésuite très content. »"]
 
 
 def blague(k):
