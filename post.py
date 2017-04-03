@@ -37,6 +37,6 @@ api = tweepy.API(auth)
 while True :
     g = blague(10)
     api.update_status(g)
-    mastodon.status_post(g)
+    mastodon_api.status_post(g)
     print("Tweeting : ", g, " at ", asctime(localtime(time())))
     sleep(7200)
