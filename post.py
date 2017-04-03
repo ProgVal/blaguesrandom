@@ -1,7 +1,7 @@
 from time import *
 import tweepy
 from gen import *
-import mastodon
+from mastodon import Mastodon
 
 passwords = open('keys.txt', 'r')
 
