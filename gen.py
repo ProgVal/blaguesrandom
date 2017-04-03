@@ -314,4 +314,4 @@ def blague(k):
 
 if __name__ == '__main__':
     print(blague(10))
-    print(len(debut)*len(fin))
+    print(len(debut),len(fin))
