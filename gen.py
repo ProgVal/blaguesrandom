@@ -148,7 +148,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Pourquoi Napoléon ne voulait-il pas toucher les arbres ?",
          "Que dit le Christ satisfait ?",
          "Que dit un homme d'Église heureux ?",
-         "Quel est l'accessoire préféré des chiens guitaristes ?"]
+         "Quel est l'accessoire préféré des chiens guitaristes ?",
+         "Comment appelle-t-on une altiste révolutionnaire ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -299,7 +300,8 @@ fin = ["Un chou marreur !",
        "Parce qu'il avait peur des insectes qui mangent l'écorce !",
        "« Jésus content. »",
        "« Jésuite très content. »",
-       "La pédale ouah-ouah !"]
+       "La pédale ouah-ouah !",
+       "Nathalie Alto !"]
 
 
 def blague(k):
