@@ -149,7 +149,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Que dit le Christ satisfait ?",
          "Que dit un homme d'Église heureux ?",
          "Quel est l'accessoire préféré des chiens guitaristes ?",
-         "Comment appelle-t-on une altiste révolutionnaire ?"]
+         "Comment appelle-t-on une altiste révolutionnaire ?",
+         "Comment appelle-t-on un colis de café qui passe par trois bureaux de postes différents pour anonymiser l'expéditeur ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -301,7 +302,8 @@ fin = ["Un chou marreur !",
        "« Jésus content. »",
        "« Jésuite très content. »",
        "La pédale ouah-ouah !",
-       "Nathalie Alto !"]
+       "Nathalie Alto !",
+       "Un TOR et facteur !"]
 
 
 def blague(k):
@@ -317,3 +319,4 @@ def blague(k):
 if __name__ == '__main__':
     print(blague(10))
     print(len(debut),len(fin))
+    print(len(fin[-1]))
