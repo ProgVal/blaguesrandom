@@ -151,7 +151,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Quel est l'accessoire préféré des chiens guitaristes ?",
          "Comment appelle-t-on une altiste révolutionnaire ?",
          "Comment appelle-t-on un colis de café qui passe par trois bureaux de postes différents pour anonymiser l'expéditeur ?",
-         "Pourquoi les mathématicien·ne·s confondent-ils Noël et Halloween ?"]
+         "Pourquoi les mathématicien·ne·s confondent-ils Noël et Halloween ?",
+         "Comment sait-on qu'un éléphant est allé dans le frigo ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -305,7 +306,8 @@ fin = ["Un chou marreur !",
        "La pédale ouah-ouah !",
        "Nathalie Alto !",
        "Un TOR et facteur !",
-       "Parce que 31 oct = 25 dec."]
+       "Parce que 31 oct = 25 dec.",
+       "Il y a des traces de pas dans le beurre."]
 
 
 def blague(k):
