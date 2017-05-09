@@ -1,2 +1,8 @@
 keys.txt
 georges-saucisse
+credentials.txt
+*~
+keys_mastodon.txt
+mastodon_client.secret
+mastodon_user.secret
+_pycache_/

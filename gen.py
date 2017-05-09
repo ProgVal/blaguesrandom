@@ -152,7 +152,9 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Comment appelle-t-on une altiste révolutionnaire ?",
          "Comment appelle-t-on un colis de café qui passe par trois bureaux de postes différents pour anonymiser l'expéditeur ?",
          "Pourquoi les mathématicien·ne·s confondent-ils Noël et Halloween ?",
-         "Comment sait-on qu'un éléphant est allé dans le frigo ?"]
+         "Comment sait-on qu'un éléphant est allé dans le frigo ?",
+         "Quel est le département qui adhère le plus ?",
+         "Qu'est-ce qu'un petit cheval qui chante le disco ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -307,7 +309,9 @@ fin = ["Un chou marreur !",
        "Nathalie Alto !",
        "Un TOR et facteur !",
        "Parce que 31 oct = 25 dec.",
-       "Il y a des traces de pas dans le beurre."]
+       "Il y a des traces de pas dans le beurre.",
+       "La Drôme, car la Drôme adhère !",
+       "Poney M !"]
 
 
 def blague(k):
