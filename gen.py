@@ -154,7 +154,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Pourquoi les mathématicien·ne·s confondent-ils Noël et Halloween ?",
          "Comment sait-on qu'un éléphant est allé dans le frigo ?",
          "Quel est le département qui adhère le plus ?",
-         "Qu'est-ce qu'un petit cheval qui chante le disco ?"]
+         "Qu'est-ce qu'un petit cheval qui chante le disco ?",
+         "Quel est le politicien préféré des ours ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -311,7 +312,8 @@ fin = ["Un chou marreur !",
        "Parce que 31 oct = 25 dec.",
        "Il y a des traces de pas dans le beurre.",
        "La Drôme, car la Drôme adhère !",
-       "Poney M !"]
+       "Poney M !",
+       "Jean-Luc Miélenchon !"]
 
 
 def blague(k):
