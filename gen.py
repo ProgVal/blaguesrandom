@@ -157,7 +157,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Qu'est-ce qu'un petit cheval qui chante le disco ?",
          "Quel est le politicien préféré des ours ?",
          "Comment appelle-t-on un hamster de l'espace ?",
-         "Monsieur et Madame Talu ont 4 fils, comment s'appellent-ils ?"]
+         "Monsieur et Madame Talu ont 4 fils, comment s'appellent-ils ?",
+         "Que dit-on quant Karl Zéro devient Noir ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -317,7 +318,8 @@ fin = ["Un chou marreur !",
        "Poney M !",
        "Jean-Luc Miélenchon !",
        "Un hamstéroïde !",
-       "Jean, car 4 Jean Talu c'est trop la classe !"]
+       "Jean, car 4 Jean Talu c'est trop la classe !",
+       "On dit que Karl a bruni !"]
 
 
 def blague(k):
