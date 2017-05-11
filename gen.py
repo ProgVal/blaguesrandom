@@ -156,7 +156,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Quel est le département qui adhère le plus ?",
          "Qu'est-ce qu'un petit cheval qui chante le disco ?",
          "Quel est le politicien préféré des ours ?",
-         "Comment appelle-t-on un hamster de l'espace ?"]
+         "Comment appelle-t-on un hamster de l'espace ?",
+         "Monsieur et Madame Talu ont 4 fils, comment s'appellent-ils ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -315,7 +316,8 @@ fin = ["Un chou marreur !",
        "La Drôme, car la Drôme adhère !",
        "Poney M !",
        "Jean-Luc Miélenchon !",
-       "Un hamstéroïde !"]
+       "Un hamstéroïde !",
+       "Jean, car 4 Jean Talu c'est trop la classe !"]
 
 
 def blague(k):
