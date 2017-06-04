@@ -159,7 +159,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Comment appelle-t-on un hamster de l'espace ?",
          "Monsieur et Madame Talu ont 4 fils, comment s'appellent-ils ?",
          "Que dit-on quant Karl Zéro devient Noir ?",
-         "Comment appelle-t-on des algébristes qui sont des personnes peu fréquentables ?"]
+         "Comment appelle-t-on des algébristes qui sont des personnes peu fréquentables ?",
+         "Qu'est-ce que ça fait quand on regarde un angle droit dans un miroir ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -321,7 +322,8 @@ fin = ["Un chou marreur !",
        "Un hamstéroïde !",
        "Jean, car 4 Jean Talu c'est trop la classe !",
        "On dit que Karl a bruni !",
-       "L'algèbre de Lie de l'humanité !"]
+       "L'algèbre de Lie de l'humanité !",
+       "Un angle gauche !"]
 
 
 def blague(k):
