@@ -162,7 +162,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Comment appelle-t-on des algébristes qui sont des personnes peu fréquentables ?",
          "Qu'est-ce que ça fait quand on regarde un angle droit dans un miroir ?",
          "Que s'exclame David Bowie quand son téléphone est enfin rechargé ?",
-         "Comment appelle-t-on l'activité qui consiste à manger des spaghettis dans une jeep en Afrique ?"]
+         "Comment appelle-t-on l'activité qui consiste à manger des spaghettis dans une jeep en Afrique ?",
+         "Monsieur et Madame Bertienne ont un fils, comment l'appellent-il ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -327,7 +328,8 @@ fin = ["Un chou marreur !",
        "L'algèbre de Lie de l'humanité !",
        "Un angle gauche !",
        "L'iPhone marche !",
-       "Le pastasafarisme !"]
+       "Le pastasafarisme !",
+       "Basile !"]
 
 
 def blague(k):
