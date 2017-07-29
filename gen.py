@@ -163,7 +163,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Qu'est-ce que ça fait quand on regarde un angle droit dans un miroir ?",
          "Que s'exclame David Bowie quand son téléphone est enfin rechargé ?",
          "Comment appelle-t-on l'activité qui consiste à manger des spaghettis dans une jeep en Afrique ?",
-         "Monsieur et Madame Bertienne ont un fils, comment l'appellent-il ?"]
+         "Monsieur et Madame Bertienne ont un fils, comment l'appellent-il ?",
+         "Quel est le caillou le plus chill ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -329,7 +330,8 @@ fin = ["Un chou marreur !",
        "Un angle gauche !",
        "L'iPhone marche !",
        "Le pastasafarisme !",
-       "Basile !"]
+       "Basile !",
+       "La Roche Posay !"]
 
 
 def blague(k):
@@ -342,7 +344,15 @@ def blague(k):
         else :
             return "Erreur de génération de la blague"
 
+def full_corpus():
+    f = open('corpus.txt', 'w')
+    for x in debut:
+        for y in fin:
+            f.write(x + ' ' + y + '\n')
+    f.close()
+
 if __name__ == '__main__':
+    full_corpus()
     print(blague(10))
     print(len(debut),len(fin))
     print(len(fin[-1]))
