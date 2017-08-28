@@ -165,7 +165,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Comment appelle-t-on l'activité qui consiste à manger des spaghettis dans une jeep en Afrique ?",
          "Monsieur et Madame Bertienne ont un fils, comment l'appellent-il ?",
          "Quel est le caillou le plus chill ?",
-         "Pourquoi les Bretons sont-ils tous frères ?"]
+         "Pourquoi les Bretons sont-ils tous frères ?",
+         "Quel est le cocktail le plus baddass ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -333,7 +334,8 @@ fin = ["Un chou marreur !",
        "Le pastasafarisme !",
        "Basile !",
        "La Roche Posay !",
-       "Parce qu'ils ont Quimper !"]
+       "Parce qu'ils ont Quimper !",
+       "Le Vin-Diesel on The Rock !"]
 
 
 def blague(k):
