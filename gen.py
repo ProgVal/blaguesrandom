@@ -168,7 +168,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Pourquoi les Bretons sont-ils tous frères ?",
          "Quel est le cocktail le plus baddass ?",
          "Que fait une couverture avocate ?"
-         "Qu'est-ce qui est vert et qui pousse au fond du jardin ?"]
+         "Qu'est-ce qui est vert et qui pousse au fond du jardin ?",
+         "Quel est le comble d'une maison ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -339,7 +340,8 @@ fin = ["Un chou marreur !",
        "Parce qu'ils ont Quimper !",
        "Le Vin-Diesel on The Rock !",
        "Elle plaid !",
-       "Un extraterrestre qui fait caca !"]
+       "Un extraterrestre qui fait caca !",
+       "C'est au niveau du grenier !"]
 
 
 def blague(k):
