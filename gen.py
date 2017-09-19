@@ -169,7 +169,9 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Quel est le cocktail le plus baddass ?",
          "Que fait une couverture avocate ?"
          "Qu'est-ce qui est vert et qui pousse au fond du jardin ?",
-         "Quel est le comble d'une maison ?"]
+         "Quel est le comble d'une maison ?",
+         "Comment appelle-t-on le phénomène des pandas qui braquent des banques ?",
+         "Comment appelle-t-on une personne non-binaire dont les enfants ne sont pas mariés ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -341,7 +343,9 @@ fin = ["Un chou marreur !",
        "Le Vin-Diesel on The Rock !",
        "Elle plaid !",
        "Un extraterrestre qui fait caca !",
-       "C'est au niveau du grenier !"]
+       "C'est au niveau du grenier !",
+       "Le grand panditisme !",
+       "Une personne agendre."]
 
 
 def blague(k):
