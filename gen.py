@@ -167,7 +167,7 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Quel est le caillou le plus chill ?",
          "Pourquoi les Bretons sont-ils tous frères ?",
          "Quel est le cocktail le plus baddass ?",
-         "Que fait une couverture avocate ?"
+         "Que fait une couverture avocate ?",
          "Qu'est-ce qui est vert et qui pousse au fond du jardin ?",
          "Quel est le comble d'une maison ?",
          "Comment appelle-t-on le phénomène des pandas qui braquent des banques ?",
