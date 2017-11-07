@@ -350,7 +350,7 @@ fin = ["Un chou marreur !",
 
 def blague(k):
     res = choice(debut)+" "+choice(fin)
-    if len(res)<141 :
+    if len(res)<=280 :
         return res
     else :
         if k>0 :
