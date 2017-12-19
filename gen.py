@@ -171,7 +171,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Qu'est-ce qui est vert et qui pousse au fond du jardin ?",
          "Quel est le comble d'une maison ?",
          "Comment appelle-t-on le phénomène des pandas qui braquent des banques ?",
-         "Comment appelle-t-on une personne non-binaire dont les enfants ne sont pas mariés ?"]
+         "Comment appelle-t-on une personne non-binaire dont les enfants ne sont pas mariés ?",
+         "Quel est le comble pour un sac à dos à Poudlard ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -345,7 +346,8 @@ fin = ["Un chou marreur !",
        "Un extraterrestre qui fait caca !",
        "C'est au niveau du grenier !",
        "Le grand panditisme !",
-       "Une personne agendre."]
+       "Une personne agendre.",
+       "D'être incartable !"]
 
 
 def blague(k):
