@@ -6,3 +6,8 @@ keys_mastodon.txt
 mastodon_client.secret
 mastodon_user.secret
 _pycache_/
+__pycache__/
+connect_masto.py
+corpus.txt
+pytooter_clientcred.secret
+pytooter_usercred.secret

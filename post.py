@@ -19,24 +19,28 @@ pass_mastodon = open('credentials.txt', 'r')
 MASTODON_USERNAME = pass_mastodon.readline()[:-1]
 MASTODON_PASSWORD = pass_mastodon.readline()[:-1]
 
-MASTODON_BASE_URL = "https://mastodon.social"
+mastodon = Mastodon(
+    client_id = 'pytooter_clientcred.secret',
+    api_base_url = 'https://botsin.space'
+)
+mastodon.log_in(
+    MASTODON_USERNAME,
+    MASTODON_PASSWORD,
+    to_file = 'pytooter_usercred.secret'
+)
 
-mastodon_api = Mastodon(
-    client_id = "mastodon_client.secret", 
-    api_base_url = MASTODON_BASE_URL
+mastodon = Mastodon(
+    client_id = 'pytooter_clientcred.secret',
+    access_token = 'pytooter_usercred.secret',
+    api_base_url = 'https://botsin.space'
 )
-mastodon_api.log_in(
-    username = MASTODON_USERNAME, 
-    password = MASTODON_PASSWORD, 
-    to_file = "mastodon_user.secret",
-    scopes = ["read", "write"]
-)
+
 
 api = tweepy.API(auth)
 
 while True :
     g = blague(10)
     api.update_status(g)
-    mastodon_api.status_post(g)
+    mastodon.status_post(g)
     print("Tweeting : ", g, " at ", asctime(localtime(time())))
     sleep(7200)
