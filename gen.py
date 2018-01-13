@@ -172,7 +172,10 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Quel est le comble d'une maison ?",
          "Comment appelle-t-on le phénomène des pandas qui braquent des banques ?",
          "Comment appelle-t-on une personne non-binaire dont les enfants ne sont pas mariés ?",
-         "Quel est le comble pour un sac à dos à Poudlard ?"]
+         "Quel est le comble pour un sac à dos à Poudlard ?",
+         "Qu'est-ce qui porte des lunettes mais qui ne voit pas ?",
+         "Qu'est-ce qui pleure quand on lui fait tourner la tête ?",
+         "Pourquoi les chercheurs ont des trous de mémoire ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -347,7 +350,10 @@ fin = ["Un chou marreur !",
        "C'est au niveau du grenier !",
        "Le grand panditisme !",
        "Une personne agendre.",
-       "D'être incartable !"]
+       "D'être incartable !",
+       "Le nez !",
+       "Un robinet !",
+       "Parce qu'ils se creusent la tête !"]
 
 
 def blague(k):
