@@ -175,7 +175,8 @@ debut = ["Qu'est-ce qui est vert et qui tourne en rigolant ?",
          "Quel est le comble pour un sac à dos à Poudlard ?",
          "Qu'est-ce qui porte des lunettes mais qui ne voit pas ?",
          "Qu'est-ce qui pleure quand on lui fait tourner la tête ?",
-         "Pourquoi les chercheurs ont des trous de mémoire ?"]
+         "Pourquoi les chercheurs ont des trous de mémoire ?",
+         "Comment appelle-t-on un ascenseur au Japon ?"]
 
 fin = ["Un chou marreur !",
        "Parce que Mario brosse !",
@@ -353,7 +354,8 @@ fin = ["Un chou marreur !",
        "D'être incartable !",
        "Le nez !",
        "Un robinet !",
-       "Parce qu'ils se creusent la tête !"]
+       "Parce qu'ils se creusent la tête !",
+       "En appuyant sur le bouton !"]
 
 
 def blague(k):
